@@ -27,7 +27,7 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
+      "name": "FAQs",
       "url": "api-reference"
     }
   ],
@@ -53,14 +53,22 @@
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Candidate List View",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "modules/ats-platform/candidate-list-view/overview",
+        "modules/ats-platform/candidate-list-view/accessing",
+        "modules/ats-platform/candidate-list-view/understanding",
+        "modules/ats-platform/candidate-list-view/interacting",
+        "modules/ats-platform/candidate-list-view/changing-stage",
+        "modules/ats-platform/candidate-list-view/viewing-resumes",
+        "modules/ats-platform/candidate-list-view/initiating-tests",
+        "modules/ats-platform/candidate-list-view/editing-details",
+        "modules/ats-platform/candidate-list-view/searching-filtering",
+        "modules/ats-platform/candidate-list-view/downloading",
+        "modules/ats-platform/candidate-list-view/adding-candidates",
+        "modules/ats-platform/candidate-list-view/nlp-search",
+        "modules/ats-platform/candidate-list-view/navigation",
+        "modules/ats-platform/candidate-list-view/troubleshooting"
       ]
     },
     {
