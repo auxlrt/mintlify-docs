@@ -28,7 +28,7 @@
   "tabs": [
     {
       "name": "FAQs",
-      "url": "api-reference"
+      "url": "mopid"
     }
   ],
   "anchors": [
@@ -47,13 +47,19 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "introduction"
       ]
     },
     {
-      "group": "Candidate List View",
+      "group": "Login & Dashboard",
+      "pages": [
+        "modules/ats-platform/login-dashboard/login-process",
+        "modules/ats-platform/login-dashboard/dashboard",
+        "modules/ats-platform/login-dashboard/navigation"
+      ]
+    },
+    {
+      "group": "Candidate Pipeline",
       "pages": [
         "modules/ats-platform/candidate-list-view/overview",
         "modules/ats-platform/candidate-list-view/accessing",
@@ -68,21 +74,20 @@
         "modules/ats-platform/candidate-list-view/adding-candidates",
         "modules/ats-platform/candidate-list-view/nlp-search",
         "modules/ats-platform/candidate-list-view/navigation",
-        "modules/ats-platform/candidate-list-view/troubleshooting"
+        "modules/ats-platform/candidate-list-view/troubleshooting",
+        "modules/ats-platform/candidate-list-view/summary"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Candidate Profile",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "modules/ats-platform/candidate-profile-view/overview",
+        "modules/ats-platform/candidate-profile-view/accessing",
+        "modules/ats-platform/candidate-profile-view/details",
+        "modules/ats-platform/candidate-profile-view/resume",
+        "modules/ats-platform/candidate-profile-view/hiring-pipeline",
+        "modules/ats-platform/candidate-profile-view/screening-questions",
+        "modules/ats-platform/candidate-profile-view/test-questions"
       ]
     }
   ],
